@@ -25,13 +25,12 @@ jobs:
           ball_color: "#22d3ee"
           enable_ghost_bricks: true
 
-      - name: Move generated SVGs to temp
+      - name: Move generated SVG to temp
         run: |
           echo "--- files produced by the action ---"
           ls -R output
           mkdir -p /tmp/breakout-images
-          mv output/light.svg /tmp/breakout-images/breakout-light.svg
-          mv output/dark.svg /tmp/breakout-images/breakout-dark.svg
+          mv output/custom.svg /tmp/breakout-images/breakout.svg
 
       - name: Configure git
         run: |
