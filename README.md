@@ -1,9 +1,9 @@
 # Roei Mashraki
 
-**Backend engineer working on model evaluation, data pipelines and cloud infrastructure.**
-Python, FastAPI, PostgreSQL, AWS. Based in Ra'anana, Israel. **Open to backend and AI infrastructure roles.**
+**I build model evaluation tooling for ML teams**, along with the data pipelines and cloud infrastructure it runs on.
+Python, FastAPI, PostgreSQL, AWS. Israel. **Open to backend and AI infrastructure roles.**
 
-I build the systems that test whether ML models actually work. Previously 2.5 years at an AI startup detecting counterfeit and defective electronic components on production lines, where I built the ML team's model evaluation tooling.
+2.5 years doing this in production at an AI startup, and building it in the open since. VisionDiff below is the current version of the same idea.
 
 [LinkedIn](https://www.linkedin.com/in/roei-mashraki/) · mashraki.work@gmail.com
 
@@ -16,7 +16,7 @@ I build the systems that test whether ML models actually work. Previously 2.5 ye
 A/B regression testing for vision-language models. Run a baseline and a candidate over the same dataset through LM Studio and get a statistical verdict instead of a vibe.
 
 - Returns Improvement, Regression or No Change from a 95% confidence interval using paired seeded bootstrap, with an exact McNemar test over the samples the two models disagreed on
-- Nine deterministic offline scorers (exact match, ANLS, relaxed chart accuracy, token and n-gram F1, field-level F1, IoU) across OCR, document VQA, chart QA, counting, captioning and JSON extraction
+- Deterministic offline scorers (exact match, ANLS, relaxed chart accuracy, token and n-gram F1, field-level F1, IoU) across OCR, document VQA, chart QA, counting, captioning and JSON extraction
 - Content-hashed datasets and seeded runs, so results reproduce. CI regenerates every dataset to prove it
 - Test suite runs with no GPU and no network
 
@@ -30,8 +30,8 @@ Full-stack ordering platform built to production conventions.
 
 - Four sign-in paths on one account model, including Google and Apple over OpenID Connect, with ID tokens verified against each provider's JWKS rather than merely decoded
 - Server-authoritative pricing. Deals carry conditions (minimum basket, matching-item count, daypart) and coupons apply after deals, so discounts never compound by accident
-- Hebrew and RTL storefront built on CSS logical properties rather than duplicate components, four-currency pricing from live ECB rates, and live order tracking derived as a pure function of time
-- 113 pytest tests, Dockerized Postgres, Alembic migrations
+- Hebrew and RTL storefront built on CSS logical properties rather than duplicate components, multi-currency pricing from live ECB rates, and live order tracking derived as a pure function of time
+- pytest tests, Dockerized Postgres, Alembic migrations
 
 `Python 3.12` `async FastAPI` `PostgreSQL` `React 19` `Stripe` `Docker`
 
@@ -53,10 +53,10 @@ Offline 2D to 3D SBS conversion for VR headsets. Upscaling, monocular depth esti
 
 ## Stack
 
-**Backend** Python, FastAPI, async SQLAlchemy, Pydantic, PostgreSQL, MongoDB, OAuth 2.0 and OpenID Connect
-**Cloud** AWS (S3, CloudWatch, SQS), Docker, Git, CI/CD
-**Applied AI** local LLM and VLM inference (LM Studio), model benchmarking and evaluation, PyTorch, LoRA training (ai-toolkit), ComfyUI, Anthropic and DeepSeek APIs
-**Also** React, TypeScript, Rust, Java
+**Backend** Python, SQL, FastAPI, asyncio, SQLAlchemy, Pydantic, Alembic, PostgreSQL, MongoDB, REST APIs, OAuth 2.0 and OpenID Connect<br>
+**Cloud** AWS (S3, CloudWatch, SQS), Docker, pytest, Git, GitLab CI/CD<br>
+**Applied AI** local LLM inference for coding (Qwen, DeepSeek, Gemma), model benchmarking and evaluation, PyTorch, LoRA training (ai-toolkit), ComfyUI, Hugging Face, Claude and Codex, generative image/video/3D (Wan, LTX, MiniMax, Tripo3D)<br>
+**Frontend** React, TypeScript, Tailwind CSS, Vite, Java
 
 ---
 
