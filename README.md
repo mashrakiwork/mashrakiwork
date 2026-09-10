@@ -1,9 +1,9 @@
 # Roei Mashraki
 
-**Backend engineer working on model evaluation, data pipelines and cloud infrastructure.**
+**I build model evaluation tooling for ML teams**, along with the data pipelines and cloud infrastructure it runs on.
 Python, FastAPI, PostgreSQL, AWS. Based in Ra'anana, Israel. **Open to backend and AI infrastructure roles.**
 
-I build the systems that test whether ML models actually work. Previously 2.5 years at an AI startup detecting counterfeit and defective electronic components on production lines, where I built the ML team's model evaluation tooling.
+2.5 years doing this in production at an AI startup, and building it in the open since. VisionDiff below is the current version of the same idea.
 
 [LinkedIn](https://www.linkedin.com/in/roei-mashraki/) · mashraki.work@gmail.com
 
