@@ -32,6 +32,14 @@ Offline 2D to 3D SBS conversion for VR headsets. Upscaling, monocular depth esti
 
 `Python 3.12` `PyTorch CUDA` `PySide6` `FFmpeg (x265, NVENC)` `uv`
 
+## HoneyTunnel
+
+[github.com/mashrakiwork/HoneyTunnel-App](https://github.com/mashrakiwork/HoneyTunnel-App)
+
+Peer-to-peer screen sharing with voice, chat and file transfer. End-to-end encrypted over QUIC, with no accounts and no servers.
+
+`Rust` `Tokio` `QUIC` `Direct3D 11` `Media Foundation` `Opus` `egui`
+
 ## Technical Skills
 
 **Backend** Python, SQL, FastAPI, asyncio, SQLAlchemy, Pydantic, Alembic, REST APIs, OAuth 2.0<br>
