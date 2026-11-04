@@ -14,11 +14,6 @@ Backend engineer with 2.5 years at an AI startup, building FastAPI services, eva
 
 A/B regression testing for vision-language models. Run a baseline and a candidate over the same dataset through LM Studio and get a statistical verdict instead of a vibe.
 
-- Returns Improvement, Regression or No Change from a 95% confidence interval using paired seeded bootstrap, with an exact McNemar test over the samples the two models disagreed on
-- Deterministic offline scorers (exact match, ANLS, relaxed chart accuracy, token and n-gram F1, field-level F1, IoU) across OCR, document VQA, chart QA, counting, captioning and JSON extraction
-- Content-hashed datasets and seeded runs, so results reproduce. CI regenerates every dataset to prove it
-- Test suite runs with no GPU and no network
-
 `Python 3.12` `FastAPI` `SQLAlchemy 2.0` `React 19` `TypeScript` `NVML`
 
 ## Slice Overflow
@@ -27,11 +22,6 @@ A/B regression testing for vision-language models. Run a baseline and a candidat
 
 Full-stack ordering platform built to production conventions.
 
-- Four sign-in paths on one account model, including Google and Apple over OpenID Connect, with ID tokens verified against each provider's JWKS rather than merely decoded
-- Server-authoritative pricing. Deals carry conditions (minimum basket, matching-item count, daypart) and coupons apply after deals, so discounts never compound by accident
-- Hebrew and RTL storefront built on CSS logical properties rather than duplicate components, multi-currency pricing from live ECB rates, and live order tracking derived as a pure function of time
-- pytest tests, Dockerized Postgres, Alembic migrations
-
 `Python 3.12` `async FastAPI` `PostgreSQL` `React 19` `Stripe` `Docker`
 
 ## DepthConverter
@@ -39,10 +29,6 @@ Full-stack ordering platform built to production conventions.
 [github.com/mashrakiwork/DepthConverter-App](https://github.com/mashrakiwork/DepthConverter-App)
 
 Offline 2D to 3D SBS conversion for VR headsets. Upscaling, monocular depth estimation and GPU stereo synthesis in one local pipeline, no cloud uploads.
-
-- Hardware detection with VRAM-based batch sizing and FP16 inference that falls back automatically on out-of-memory
-- Frames stream through ffmpeg pipes, so RAM stays constant regardless of video length
-- Depth Anything V3 and V2, MiDaS and DPT presets, plus any custom Hugging Face repo
 
 `Python 3.12` `PyTorch CUDA` `PySide6` `FFmpeg (x265, NVENC)` `uv`
 
