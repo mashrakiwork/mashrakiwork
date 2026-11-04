@@ -4,13 +4,13 @@ Backend engineer with 2.5 years at an AI startup, building FastAPI services, eva
 
 **Open to backend and AI infrastructure roles.**
 
-[LinkedIn](https://www.linkedin.com/in/roei-mashraki/) · mashraki.work@gmail.com
+<a href="https://www.linkedin.com/in/roei-mashraki/"><img src="https://raw.githubusercontent.com/mashrakiwork/mashrakiwork/main/assets/buttons/linkedin.svg" alt="My LinkedIn" height="30"></a> &nbsp; mashraki.work@gmail.com
 
 ---
 
 ## VisionDiff
 
-[github.com/mashrakiwork/VisionDiff-Tool](https://github.com/mashrakiwork/VisionDiff-Tool)
+<a href="https://github.com/mashrakiwork/VisionDiff-Tool"><img src="https://raw.githubusercontent.com/mashrakiwork/mashrakiwork/main/assets/buttons/visiondiff.svg" alt="VisionDiff on GitHub" height="30"></a>
 
 A/B regression testing for vision-language models. Run a baseline and a candidate over the same dataset through LM Studio and get a statistical verdict instead of a vibe.
 
@@ -18,7 +18,7 @@ A/B regression testing for vision-language models. Run a baseline and a candidat
 
 ## Slice Overflow
 
-[github.com/mashrakiwork/Pizzeria-Slice-Overflow-Website](https://github.com/mashrakiwork/Pizzeria-Slice-Overflow-Website)
+<a href="https://github.com/mashrakiwork/Pizzeria-Slice-Overflow-Website"><img src="https://raw.githubusercontent.com/mashrakiwork/mashrakiwork/main/assets/buttons/slice-overflow.svg" alt="Slice Overflow on GitHub" height="30"></a>
 
 Full-stack ordering platform built to production conventions.
 
@@ -26,7 +26,7 @@ Full-stack ordering platform built to production conventions.
 
 ## DepthConverter
 
-[github.com/mashrakiwork/DepthConverter-App](https://github.com/mashrakiwork/DepthConverter-App)
+<a href="https://github.com/mashrakiwork/DepthConverter-App"><img src="https://raw.githubusercontent.com/mashrakiwork/mashrakiwork/main/assets/buttons/depthconverter.svg" alt="DepthConverter on GitHub" height="30"></a>
 
 Offline 2D to 3D SBS conversion for VR headsets. Upscaling, monocular depth estimation and GPU stereo synthesis in one local pipeline, no cloud uploads.
 
@@ -34,7 +34,7 @@ Offline 2D to 3D SBS conversion for VR headsets. Upscaling, monocular depth esti
 
 ## HoneyTunnel
 
-[github.com/mashrakiwork/HoneyTunnel-App](https://github.com/mashrakiwork/HoneyTunnel-App)
+<a href="https://github.com/mashrakiwork/HoneyTunnel-App"><img src="https://raw.githubusercontent.com/mashrakiwork/mashrakiwork/main/assets/buttons/honeytunnel.svg" alt="HoneyTunnel on GitHub" height="30"></a>
 
 Peer-to-peer screen sharing with voice, chat and file transfer. End-to-end encrypted over QUIC, with no accounts and no servers.
 
