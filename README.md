@@ -10,6 +10,14 @@ mashraki.work@gmail.com
 
 ---
 
+## Scroll Lab
+
+<a href="https://github.com/mashrakiwork/ScrollLab-Showcase"><img src="https://raw.githubusercontent.com/mashrakiwork/ScrollLab-Showcase/main/assets/reel.webp" alt="Scroll Lab demos playing one after another" width="800"></a>
+
+Pages you scroll like a film: 3D scenes and frame-by-frame film, directed by the scrollbar.
+
+`React` `TypeScript` `Three.js` `GSAP` `WebCodecs` `WebGL`
+
 ## VisionDiff
 
 <a href="https://github.com/mashrakiwork/VisionDiff-Tool"><img src="https://raw.githubusercontent.com/mashrakiwork/mashrakiwork/main/assets/buttons/visiondiff.svg?v=4" alt="VisionDiff on GitHub" height="30"></a>
