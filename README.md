@@ -12,7 +12,7 @@ mashraki.work@gmail.com
 
 ## Scroll Lab
 
-<a href="https://github.com/mashrakiwork/ScrollLab-Showcase"><img src="https://raw.githubusercontent.com/mashrakiwork/ScrollLab-Showcase/main/assets/reel.webp" alt="Scroll Lab demos playing one after another" width="800"></a>
+<a href="https://github.com/mashrakiwork/ScrollLab-Showcase"><img src="https://raw.githubusercontent.com/mashrakiwork/ScrollLab-Showcase/main/assets/reel.avif" alt="Scroll Lab demos playing one after another" width="800"></a>
 
 Pages you scroll like a film: 3D scenes and frame-by-frame film, directed by the scrollbar.
 
